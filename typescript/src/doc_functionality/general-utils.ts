@@ -37,6 +37,7 @@ export function generateCustomCSSHash(configuration: any): string {
         'lookAndFeelAccentColor',
         'lookAndFeelAccentAlternativeColor',
         'lookAndFeelAccentSurfaceColor',
+        'lookAndFeelLinkColor',
         'themeConfiguration',
         'siteMaxWidth',
         'contentContainerWidth',

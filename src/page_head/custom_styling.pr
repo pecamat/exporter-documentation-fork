@@ -26,6 +26,11 @@
     {[ if accentSurfaceColor ]}
     --colorAccentSurface: {{ accentSurfaceColor }};
     {[/]}
+    {[ let linkColorOption = configuration.lookAndFeelLinkColor /]}
+    {[ let linkColor = (linkColorOption ? getColorValueFromSettings(linkColorOption.value, ((linkColorOption.aliasTo !== null) ? ds.tokenById(linkColorOption.aliasTo) : null)) : null) /]}
+    {[ if linkColor ]}
+    --colorLink: {{ linkColor }};
+    {[/]}
     {* Layout *}
     {[ if (configuration.limitSiteMaxWidth && (configuration.siteMaxWidth <= 1400)) ]}
     --siteMaxWidth: 1400px;

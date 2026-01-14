@@ -6,7 +6,7 @@
   "organization": "Supernova",
   "source_dir": "src",
   "assets_dir": "assets",
-  "version": "5.5.18",
+  "version": "5.5.19",
   "usesBrands": false,
   "config": {
     "sources": "sources.json",
@@ -64,6 +64,13 @@
         "type": "color",
         "label": "Surface accent color",
         "description": "Used for backgrounds of active and selected items. This color should meet AA+ contrast criteria against the main accent color. Default color: #ecf4ff.",
+        "category": "Look & feel"
+      },
+      {
+        "key": "lookAndFeelLinkColor",
+        "type": "color",
+        "label": "Link color",
+        "description": "Used for links in the documentation. Default color: #00ff00.",
         "category": "Look & feel"
       },
       {
