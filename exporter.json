@@ -48,7 +48,7 @@
       {
         "key": "lookAndFeelAccentColor",
         "type": "color",
-        "label": "Accent color",
+        "label": "Accent color This Is test",
         "description": "This is your main accent color, used for all links, selected states, and active items. Default color: #0f62fe.",
         "category": "Look & feel"
       },
