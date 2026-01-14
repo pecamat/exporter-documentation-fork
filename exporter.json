@@ -6,7 +6,7 @@
   "organization": "Supernova",
   "source_dir": "src",
   "assets_dir": "assets",
-  "version": "5.5.19",
+  "version": "5.5.20",
   "usesBrands": false,
   "config": {
     "sources": "sources.json",
@@ -70,7 +70,7 @@
         "key": "lookAndFeelLinkColor",
         "type": "color",
         "label": "Link color",
-        "description": "Used for links in the documentation. Default color: #00ff00.",
+        "description": "Used for links in the documentation. Default color: #104fc6.",
         "category": "Look & feel"
       },
       {
